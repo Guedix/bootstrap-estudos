@@ -1,1 +1,1 @@
-São código de aprendizado do curso
+São códigos de aprendizado do curso
