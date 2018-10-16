@@ -1,0 +1,152 @@
+<html>
+    <head>
+        <title>Curso de Bootstrap</title>
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        
+        
+        
+        <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+        <link href="_css/estilo.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+
+        <style>
+    
+         body {background-color: rgb(241, 234, 211);}
+         img { width: 100%; height: 500px;}
+         main { margin: 0 auto; padding: 0; background: rgb(240, 236, 224);}
+         header { background: #A0522D; width: 100%; height: 80px;}
+         .titulo {float: left;; text-align: center; margin-left: 550px;}
+         .titulo h1 { font-style: italic; letter-spacing: 0.2em; font-family: 'Pacifico', cursive; color: #CD853F; font-size: 40px;}
+         nav { }
+         nav ul { margin-top: 20px; text-align: center;}
+         nav ul li { font-family: 'Permanent Marker', cursive; word-spacing: 0.2em; font-size: 1.2em; }
+         nav ul li a{ color: black; text-decoration: none;}
+         nav ul li a:hover { transition: .5s; opacity: 0.8; background-color: olive; transform: scale(1.3);}
+
+         .inicio { 
+             margin-top: 50px;
+             margin-right: 20%;
+        }
+
+        .inicio p {
+            font-family: 'Mali', cursive;
+            font-size: 1.2em;
+            line-height: 1.1em;
+            color:  rgb(153, 155, 65)
+            
+        }
+
+        .divisao p{ text-align: center; color: #d59903; }
+
+        h1 { text-decoration: underline;}
+        h4 {  font-style: italic; font-family: 'Oswald', sans-serif; color: black;}
+        tr, .preco { text-align: right;}
+        h2 { font-style: italic; letter-spacing: 0.2em; font-family: 'Pacifico', cursive; color: #CD853F; font-size: 30px; margin-left: 10px;}
+        h3 { font-style: italic; font-family: 'Oswald', sans-serif; color: black;}
+        .text1 p { margin-top: 40px;}
+        address { background: #CD853F; color: #fff; width: 145px; height: 40px; text-align: center; font-size: 1.5em; ; font-family: 'Oswald', sans-serif; margin-left: 70px; margin-top: 20px;}
+
+
+        footer { width: 100%; height: 200px; margin-top: 50px; background: rgb(15, 72, 119); border: solid 1px #d59903;}
+        footer ul {  text-align: center; margin-top:50px; margin-bottom: 20px;}
+        footer ul li { font-family: 'Fjalla One', sans-serif; letter-spacing: 0.1em; font-size: 1.2em; }
+        footer ul li a { color: white; text-decoration: none; }
+        footer small { text-align: center; margin-top: 50px; color: white; margin-left: 550px;}
+        
+       
+        </style>
+
+
+    </head>
+    <body>
+
+          <img src="img/churras.jpg">
+        <!-- Digite abaixo seu codigo -->
+    <main>
+            <header>
+
+                <div class="titulo">
+
+                      <h1>Prattin's</h1>
+                </div>
+
+            </header>
+                    <nav>
+                            
+                            <ul class="list-inline">
+                                    
+                                    <li><a href="testing.html">INICIO</a></li>
+                                    <li><a href="pratos.html">PRATOS</a></li>
+                                    <li><a href="fotos.html">FOTOS</a></li>
+                                    <li><a href="historia.html">NOSSA HISTÓRIA</a></li>
+                                    <li><a href="contato.html">CONTATO</a></li>
+                                    
+                            </ul>
+                           
+                    </nav>    
+            
+                <div class=" inicio col-md-offset-2">
+
+                   <p class="text-center">Trazemos a você novas opções para seu almoço ou jantar. Os cortes de carne, frango ou peixe podem ser escolhidos e consumidos separadamente do rodízio completo e acompanhadas pela Mesa de Saladas livre. Ou se desejar, você pode optar pelo consumo somente da Mesa de Saladas.</p>
+                </div>
+
+
+                <div class="divisao">
+                <p>____________________________________________________________________________________________________________</p>
+                </div>
+                 
+            <div class="container text1">
+                 
+                   <h4><strong style="font-weight:bolder; border-bottom: solid 1px #d59903"> Mesas de Salada e Feijoada <mark style="float: right">R$ 49,99</mark></p></strong></h4>
+                   <p class="textos">Degustação livre das variadas opções de saladas, que inclui cogumelos, endívias, aspargos, alcachofras, grãos e outros vegetais, peixe como salmão, também queijos finos, presuntos, pães fresquinhos, azeites nobres, molhos e temperos, além dos pratos típicos gaúchos. Às quartas e sábados, servimos feijoada.</p>
+                                      
+            </div>       
+
+            <div class="container text1">
+ 
+                <h3><strong style="font-weight:bolder; border-bottom: solid 1px #d59903;">Reservas</strong></h3>
+                <p>De domingo a quinta pelo telefone ou clique <a>Aqui</a></p>
+                <address>(11) 37331680</address>
+
+            </div>
+
+            <div class="divisao">
+                <p style="color: rgba(136, 132, 132, 0.747);">____________________________________________________________________________________________________________</p>
+            </div>
+
+            <div class=" container card">
+                <h5 class="card-header">Featured</h5>
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            
+
+
+
+        <footer>
+                 <ul  class="list-inline">
+                      <li><a>♨POLITICA DE PRIVACIDADE</a></li>                     
+                      <li><a>♨TERMOS DE USO</a></li>
+                      <li><a>♨FAQ</a></li>
+                      <li><a>♨FALE CONOSCO</a></li>
+                 </ul>
+                 <small>© 2015 Prattin's, Inc. All Rights Reserved.</small>
+                 <h2>Prattin's ®</h2>
+        </footer>
+
+    </main>
+        
+        <!-- Fim do seu codigo -->
+        <script src="_js/script.js"></script>
+    </body>
+</html>
